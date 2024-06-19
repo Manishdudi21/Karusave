@@ -57,8 +57,8 @@ async def start(event):
     collection.update_one({"user_id": user_id}, {"$set": {"user_id": user_id}}, upsert=True)
     # Creating inline keyboard with one button
     buttons = [
-        [Button.url("Join Channel", url="https://t.me/devggn")],
-        [Button.url("Contact Me", url="https://t.me/ggnhere")],
+        [Button.url("Join Channel", url="https://t.me/botsecom")],
+        [Button.url("Contact Me", url="https://t.me/hackonlyc")],
     ]
     # Sending photo with caption and buttons
     await gagan.send_file(
