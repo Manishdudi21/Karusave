@@ -18,18 +18,15 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 logging.getLogger("telethon").setLevel(logging.WARNING)
 
 uvloop.install()
-
-ggn = "mongodb+srv://viktor55:Gagan@123@cluster0.4efvr6n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
+API_ID = "23449041"
+API_HASH = "22263bf0807d45f0fc9bac99471fec1b"
+BOT_TOKEN = "7186291829:AAGHlSx7Y-iyYP2qHVSBe9iSt003gWsuqkw"
+SESSION = "BABZZiVHVbyvV3G3_62wrSp6iBD2jDByYJQEG8MoShGXVoV-NQhdApSmh29KmSLDbXqX8l1R5cbWO6u1kOX_iXH3ENRJP-DqUOzu1Kb6lZkM_58DsHA35BCK0nFXhhBXkJjpYHGmyqDSiM_LR4FeDah4ml2rO22UyZC9U8HtEjiOdc1_bN8R4AaqAuBxWFFDbobvi_QzdjADbQ_3_hNoT9RllpwhtfF1B9HzqFNvevMKIzaS6XAVdj-Zk8k7FckT2LUpov4aGLYHFUBCQ_qqNPew8o16EzU7cK0CpNLZ538EyMAvTbG6BYKQ0GxgdLGOqPv6NvUC9RSKis66Tua6mcPWAAAAAYiMhfwA"
+FORCESUB = "botsecom"
+AUTH = "6585878012"
 MONGODB_CONNECTION_STRING = config("MONGO", default=ggn)
-OWNER_ID = config("OWNER_ID", default=None)
-LOG_GROUP = config("LOG_GROUP", default=None)
+OWNER_ID = "6585878012"
+LOG_GROUP = "-1002002312606"
 SUDO_USERS = []
 
 if len(AUTH) != 0:
